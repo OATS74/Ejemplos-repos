@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(125, 125, 210);
+    padding: 15px;
+    margin: 0;
+    font-family: Roboto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background: #fff;
+    padding: 15px;
+    margin: 330px;
+    border-radius: 35px;
+}
+img {
+    max: width 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+}
