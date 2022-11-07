@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>Pagina del administrador Pastelero</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-image: url("3.jpg");
+            /*background-color: rgba(37, 82, 7, 0.366);*/
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: rgb(4, 3, 3);
+            background-size:cover;
+    background: size 100%;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-attachment: fixed;
+    width: auto;
+  }
+        
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h3>DASHBOARD</h3>
+        
+    </header>
+
+    <section>
+        <nav>
+            
+            <a href="/index.html">Productos</a> 
+            <a href="/pasteleria/pedido.html">Haz tu pedido!</a>
+            <a href="/pasteleria/ubicacion.html">Encuéntranos</a>
+            
+            
+        </nav>
+
+        <section>
+            <h2>Sabores</h2>
+            <!--<h3>Cantidad Restante</h3>-->
+            <table>
+                <tr>
+                    <th>Sabor</th>
+                    <th>Cant. en kg</th>
+                    <th>Ubicacion </th>
+                </tr>
+                <tr>
+                    <td>Vainilla </td>
+                    <td>4</td>
+                    <td> estante n° 15</td>
+                </tr>
+                <tr>
+                    <td>Fresa  </td>
+                    <td>5</td>
+                    <td>estante n° 1</td>
+                </tr>
+                <tr>
+                    <td>Chocolate   </td>
+                    <td>4</td>
+                    <td>estante n° 12</td>
+                </tr>
+                <tr>
+                    <td>Limon </td>
+                    <td>3</td>
+                    <td> estante n° 10</td>
+                </tr>
+                <tr>
+                    <td>Frutos Secos  </td>
+                    <td>3</td>
+                    <td>estante n° 26</td>
+                </tr>
+                <tr>
+                    <td>Especiales   </td>
+                    <td>3</td>            
+                    <td>estante n° 18</td>
+               
+            </table>
+        </section>
+    </aside> 
+    <section>
+        <h2>Cubiertas</h2>
+        <!--<h3>Cantidad Restante</h3>-->
+        <table>
+            <tr>
+                <th>Sabor</th>
+                <th>Cant. en kg</th>
+                <th>Ubicacion </th>
+            </tr>
+            <tr>
+                <td>Vainilla </td>
+                <td>4</td>
+                <td> estante n° 15</td>
+            </tr>
+            <tr>
+                <td>Fresa  </td>
+                <td>5</td>
+                <td>estante n° 1</td>
+            </tr>
+            <tr>
+                <td>Chocolate   </td>
+                <td>4</td>
+                <td>estante n° 12</td>
+            </tr>
+            <tr>
+                <td>Limon </td>
+                <td>3</td>
+                <td> estante n° 10</td>
+            </tr>
+            <tr>
+                <td>Frutos Secos  </td>
+                <td>3</td>
+                <td>estante n° 26</td>
+            </tr>
+            <tr>
+                <td>Especiales   </td>
+                <td>3</td>            
+                <td>estante n° 18</td>
+           
+        </table>
+    </section>
+</aside> 
+        
+    </section>
+    <section>
+        <h2>Rellenos</h2>
+        <!--<h3>Cantidad Restante</h3>-->
+        <table>
+            <tr>
+                <th>Sabor</th>
+                <th>Cant. en kg</th>
+                <th>Ubicacion </th>
+            </tr>
+            <tr>
+                <td>Vainilla </td>
+                <td>4</td>
+                <td> estante n° 15</td>
+            </tr>
+            <tr>
+                <td>Fresa  </td>
+                <td>5</td>
+                <td>estante n° 1</td>
+            </tr>
+            <tr>
+                <td>Chocolate   </td>
+                <td>4</td>
+                <td>estante n° 12</td>
+            </tr>
+            <tr>
+                <td>Limon </td>
+                <td>3</td>
+                <td> estante n° 10</td>
+            </tr>
+            <tr>
+                <td>Frutos Secos  </td>
+                <td>3</td>
+                <td>estante n° 26</td>
+            </tr>
+            <tr>
+                <td>Especiales   </td>
+                <td>3</td>            
+                <td>estante n° 18</td>
+           
+        </table>
+    </section>
+    <hr>
+</aside> 
+<h2>Orden de compra del cliente :</h2>
+            <!-- Labels / Etiquetas -->
+            <label for="orden"> N° de Orden </label>
+            <input type="text" id="orden" name="orden">
+              <br><br>
+              <br>
+              <label for="Nombre"> Nombre </label>
+              <br>
+              <!-- Entradas / Inputs -->
+              <input type="text" id="Nombre" name="Nombre">
+              <br><br>
+              <label for="Teléfono">Numero de Teléfono</label>
+              <br>
+              <input type="Teléfono" id="Teléfono" name="Teléfono" maxlength="10"><br><br>
+              
+              <label for="correo1">Correo</label><br>
+              <input type="email" id="correo1" name="correo1"><br><br>
+              
+              <label for="direccion">Direccion de envio</label>
+              <br>
+              <input type="text" id="direccion" name="direccion">
+              
+            
+              <button type="submit">Enviar pedido </button>    <br>
+          
+                </dl>
+    <section>
+        <section>
+            <hr>
+            <form> 
+        
+                <h2>Pedidos</h2>
+                  <h3>Redirigir la orden para la sucursal </h3>
+                    <label for="Ubicacion"> Ubicacion de la orden ?</label>
+                    <select id="tacos" name="tacos">
+                <option value="Norte">Norte</option>
+                <option value="Centro">Centro</option>
+                <option value="sur">Sur</option>
+                
+                </select>
+                <hr>
+        
+                <h2>Cuantas Tortas escogio y que sabor?</h2><br>
+                <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+                <label for="topping1">Vainilla</label>
+                <input type="number"id="vainillaNumber" name="vainillaNumber"placeholder="Cuantos?">
+                <br>
+                <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+                <label for="topping2">Fresa</label>
+                <input type="number"id="FresaNumber" name="FresaNumber"placeholder="cuantos?">
+                <br>
+                <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+                <label for="topping3">Chocolate</label>
+                <input type="number"id="ChocolateNumber" name="ChocolateNumber"placeholder="cuantos?">
+                <br>
+                <input type="checkbox" id="Limon" name="Limon" value="Limon">
+                <label for="topping3">Limón </label>
+                <input type="number"id="LimonNumber" name="LimonNumber"placeholder="cuantos?">
+                <br>
+                <input type="checkbox" id="frutos" name="frutos" value="frutos">
+                <label for="topping3">Frutos secos</label>
+                <input type="number"id="frutosNumber" name="frutosNumber"placeholder="cuantos?">
+                
+                <hr>
+                <h2>Que Cubierta seleciono para  decorar?</h2><br>
+                <input type="radio" id="roja" name="salsas" value="Roja">
+                <label for="roja">Masapan</label><br>
+                <input type="radio" id="verde" name="salsas" value="Verde">
+                <label for="verde">Chocolate Crocante</label><br>
+                <input type="radio" id="guacamole" name="salsas" value="Guacamole">
+                <label for="guacamole">Fondant</label><br>
+                <input type="radio" id="roja" name="salsas" value="Roja">
+                <label for="roja">Chantilli</label><br>
+                <input type="radio" id="verde" name="salsas" value="Verde">
+                <label for="verde">Merengue</label><br>
+                <input type="radio" id="guacamole" name="salsas" value="Guacamole">
+                <label for="guacamole">Caramelo Suave</label><br>
+                
+                <hr>
+        
+                <h2>Que relleno le agrego el cliente?</h2>
+            <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+            <label for="topping1">Arequipe</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+            <label for="topping2">Mermelada</label><br>
+            <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+            <label for="topping3">Fresa</label><br>
+            <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+            <label for="topping1">Chocolate</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+            <label for="topping2">Ganache</label><br>
+            <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+            <label for="topping3">Crema Chantilli</label><br>
+            <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+            <label for="topping3">Stratachela</label><br<br>
+        
+                <h2>Que gaseosa escogio </h2>
+            <input type="radio" id="roja" name="salsas" value="Roja">
+            <label for="roja">Coca Cola</label><br>
+            <input type="radio" id="verde" name="salsas" value="Verde">
+            <label for="verde">Frescolita</label><br>
+            <input type="radio" id="guacamole" name="salsas" value="Guacamole">
+            <label for="guacamole">Seven up</label><br><br>
+            
+        
+                
+            </form>
+        </section>
+        
+    </section>
+    <footer>
+        <p>Resumen del pedido (descriccion) </p>
+    </footer>
+
+</body>
+
+</html>
+<!--//como navegar en la pagina?
+<a href="#id_del_elemento">Ir a tal parte</a>
+
+...
+
+<div id="id_del_elemento"> ... </div>
+
+
+<a href="#elid">Ir a el ID</a>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p id="elid">este es el elemento</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+
+function moverseA(idDelElemento) {
+    location.hash = "#" + idDelElemento;
+}
+
+
+moverseA("id_del_elemento"); // sin el #
+
+
+function moverseA(idDelElemento) {
+  location.hash = "#" + idDelElemento;
+}
+
+<button onclick="moverseA('elid')">Ir a el ID</button>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p id="elid">este es el elemento</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+

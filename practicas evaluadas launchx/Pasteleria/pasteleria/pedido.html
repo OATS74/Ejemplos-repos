@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stile.css">
+    <title>Haz tus pedidos con free Delivery
+    </title>
+
+</head>
+<body>
+    <header>
+        
+        <figure>
+            <a href="/index.html"><img src="./logo tortas.png" alt="logo"></a>
+        </figure>
+        <h1></h1>
+        <nav>
+            
+            <a href="/index.html">Productos</a> 
+            <a href="/pasteleria/pedido.html">Haz tu pedido!</a>
+           
+            <a href="/pasteleria/PAST2.html">Administrador</a>
+            <h4>Tortas LaunchX, de Mérida desde 2022</h4>
+
+        </nav>
+    </header> 
+
+    <form> 
+
+        <h2>Pedidos</h2>
+          <h2>Contamos con delivery free</h2>
+            <label for="Ubicacion">De que ubicacion quieres la orden ?</label>
+            <select id="tacos" name="tacos">
+        <option value="Norte">Norte</option>
+        <option value="Centro">Centro</option>
+        <option value="sur">Sur</option>
+        
+        </select>
+        <hr>
+
+        <h2>Cuantas Tortas quieres y que sabor?</h2><br>
+        <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+        <label for="topping1">Vainilla</label>
+        <input type="number"id="vainillaNumber" name="vainillaNumber"placeholder="Cuantos?">
+        <br>
+        <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+        <label for="topping2">Fresa</label>
+        <input type="number"id="FresaNumber" name="FresaNumber"placeholder="cuantos?">
+        <br>
+        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+        <label for="topping3">Chocolate</label>
+        <input type="number"id="ChocolateNumber" name="ChocolateNumber"placeholder="cuantos?">
+        <br>
+        <input type="checkbox" id="Limon" name="Limon" value="Limon">
+        <label for="topping3">Limón </label>
+        <input type="number"id="LimonNumber" name="LimonNumber"placeholder="cuantos?">
+        <br>
+        <input type="checkbox" id="frutos" name="frutos" value="frutos">
+        <label for="topping3">Frutos secos</label>
+        <input type="number"id="frutosNumber" name="frutosNumber"placeholder="cuantos?">
+        <br>
+        <br>
+        <hr>
+        <h2>Con que Cubierta le vas a decorar?</h2><br>
+        <input type="radio" id="roja" name="salsas" value="Roja">
+        <label for="roja">Masapan</label><br>
+        <input type="radio" id="verde" name="salsas" value="Verde">
+        <label for="verde">Chocolate Crocante</label><br>
+        <input type="radio" id="guacamole" name="salsas" value="Guacamole">
+        <label for="guacamole">Fondant</label><br>
+        <input type="radio" id="roja" name="salsas" value="Roja">
+        <label for="roja">Chantilli</label><br>
+        <input type="radio" id="verde" name="salsas" value="Verde">
+        <label for="verde">Merengue</label><br>
+        <input type="radio" id="guacamole" name="salsas" value="Guacamole">
+        <label for="guacamole">Caramelo Suave</label><br><br>
+        <br>
+        <br>
+        <hr>
+
+        <h2>Que relleno le vas a agregar?</h2>
+        <h3>solo se tomaran en cuenta 2 rellenos en orden desendente.ok</h3>
+        <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+    <label for="topping1">Arequipe</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+    <label for="topping2">Mermelada</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+    <label for="topping3">Fresa</label><br>
+    <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+    <label for="topping1">Chocolate</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Cilantro">
+    <label for="topping2">Ganache</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+    <label for="topping3">Crema Chantilli</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Salsa">
+    <label for="topping3">Stratachela</label><br<br>
+
+        <h2>Gaseosas</h2>
+        <h3>Puedes recargar 2 veces</h3>
+    <input type="radio" id="roja" name="salsas" value="Roja">
+    <label for="roja">Coca Cola</label><br>
+    <input type="radio" id="verde" name="salsas" value="Verde">
+    <label for="verde">Frescolita</label><br>
+    <input type="radio" id="guacamole" name="salsas" value="Guacamole">
+    <label for="guacamole">Seven up</label><br><br>
+    
+
+        <h2>Datos para el envio GRATIS</h2>
+    <!-- Labels / Etiquetas -->
+      <label for="Nombre"> Nombre </label>
+      <br>
+      <!-- Entradas / Inputs -->
+      <input type="text" id="Nombre" name="Nombre">
+      <br><br>
+      <label for="Teléfono">Numero de Teléfono</label>
+      <br>
+      <input type="Teléfono" id="Teléfono" name="Teléfono" maxlength="10"><br><br>
+      
+      <label for="correo1">Correo</label><br>
+      <input type="email" id="correo1" name="correo1"><br><br>
+      
+      <label for="direccion">Direccion de envio</label>
+      <br>
+      <input type="text" id="direccion" name="direccion">
+      
+    
+      <button type="submit">Enviar pedido </button>    <br>
+  
+        </dl>
+    </form>
+</section>
+
+
+    <footer>
+   
+        <a href="/index.html"target="_blank"><img src="./22237.jpg" alt="logo"></a>
+            
+    </footer>
+
+
+    
+</body>
+</html>
+
