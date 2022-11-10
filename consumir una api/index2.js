@@ -1,4 +1,4 @@
-//metodo nuevo para llamar api
+//metodo nuevo para llamar api   tampoco me corrio
 
 const API_URL ="https://jsonplaceholder.typicode.com";
 
